@@ -23,6 +23,8 @@ This project leverages multiple Microsoft Fabric components to approach the prob
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
+`Workspace` `Lakehouse`
+
 
 -->
 [![Workspace][Lakehouse][Notebook][PowerBI][PowerBI Desktop]
