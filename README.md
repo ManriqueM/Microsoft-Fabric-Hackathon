@@ -20,7 +20,7 @@ This project leverages multiple Microsoft Fabric components to approach the prob
 `SQL Analytics Endpoint` `Semantic Model` `PowerBI (and PBI Desktop)` `Copilot for PowerBI`
 `KQL Database (using shortcuts)` `KQL Dataset`
 
-The image below, from the Lineage view, summarizes how these components are being used together.
+The image below, from the Lineage view, summarizes how these components are being used together (the blue boxes were used to create the data and the red boxes are the different outputs).
 
 ![Test](images/Description.png)
 
