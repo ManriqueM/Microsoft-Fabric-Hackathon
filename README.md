@@ -35,7 +35,7 @@ The image below, from the Lineage view, summarizes how these components are bein
 
 This is how Azure OpenAI and Copilot were leveraged:
 - **Azure OpenAI**:
-	- Creating a base dataset based on dataspecs
+	- Creating a base dataset (3 dimension tables and 1 fact table) based on dataspecs
 	- Enhancing the base dataset and adapting it for a Global Retail Electronics Store
 	- Creating a "low-code" anomaly detection model
 - **Copilot**:
