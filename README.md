@@ -47,23 +47,43 @@ This is how Azure OpenAI and Copilot were leveraged:
 ## **Development Process**
 All scripts are included in the Scripts subfolder from this repository.
 
-### 01 - Create Base Dataset leveraging AzureOpenAI and Data_Specs
-Please refer to this link: [CSV_to_DeltaTables.ipynb](Scripts/CSV_to_DeltaTables.ipynb)
+### 01 - Create Dataset leveraging AzureOpenAI and Data_Specs
+- A sythetic dataset for Sales for a Global Retail Electronics company.
+- This was created leveraging the Azure OpenAI API from Noteboook, as shown in this code: [CSV_to_DeltaTables.ipynb](Scripts/CSV_to_DeltaTables.ipynb)
+- As a result of this process, 4 csv files are created and saved to the Lakehouse, within a csv files subfolder.
+	- Dim_Store
+	- Dim_Customer
+	- Dim_Product
+	- Fact_Sales
 
+### 02 - Load data from CSV files to delta tables
+- This process creates delta tables from the csv files originally created and stored in the lakehouse. 
+- It takes care of cleaning the table names and column headers (no blank spaces, etc)
+- Please refer to this link: [CSV_to_DeltaTables.ipynb](Scripts/CSV_to_DeltaTables.ipynb)
 
-### 02 - Enhance Base Dataset, adapt to Global Retail Electronics Store and load delta tables to Lakehouse
-Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+### 03 - Build Semantic Model
+- The semantic model is detailed below: ![Test](images/Description.png)
+- It was created by leveraging the SQL Endpoint. 
+- It consists of the 4 delta tables, 2 measures (total sales and quantity sold) and a date view (created with a SQL query), which is added to the model.
 
-### 03 - Examine Anomalies in PowerBI
-Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+### 04 - Examine Anomalies in PowerBI
+- Leveraging the Copilot AI capabilities in PowerBI, a Report was created using the Auto-create Report feature.
+- The base .pbix report was then downloaded, enhanced with PowerBI Desktop and published to the workspace.
+- 2 enhancements were done, which leverage the Copilot AI capabilities: including Anomaly detection and Smart Narratives
 
-### 04 - KQL Database and KQL Dataset
-Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+This picture shows the result:
+![Test](images/Description.png)
 
 ### 05 - KQL Database and KQL Dataset
-Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+- A KQL Database was created.
+- Data was added by leveraging the shortcuts feature to connect to the delta tables.
+- After this, a KQL dataset was created, using the anomaly detection in KQL.
+- Below are the code used and the corresponding visual
 
 ### 06 - KQL Database and KQL Dataset
+Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+
+### 07 - KQL Database and KQL Dataset
 Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 
 
