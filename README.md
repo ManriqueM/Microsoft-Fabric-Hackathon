@@ -34,26 +34,4 @@ This is how Azure OpenAI and Copilot were leveraged:
 	- Using PowerBI Desktop, to adjust the .pbix and include AI features (Smart Narratives, also to use Anomaly Detection and Explain By feature)
 
 
-
--Microsoft Fabric Components: Lakehouse, Notebook, PowerBI (and PowerBI Desktop), KQL Database, KQL Dataset, 
-
-- It includes the use of Azure Open AI to generate a synthetic (but realistic) dataset for a retail company. 
-
-
-
-
-The diagram below also shows
-
-Azure Open AI and Copilot features to approach the problem of anomaly detection.
-
-Microsoft Copilot features (anomaly detection and smart narratives within PowerBI) to approach the problem of 
-
-
-This image taken from the Lineage view, summarizes the 
-
-![Test](images/Description.png)
-
-
-As part of the Microsoft The picture below shares Here's a blank template to get started: To avoid retyping too much info. Do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
