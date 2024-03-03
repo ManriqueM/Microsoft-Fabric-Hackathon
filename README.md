@@ -10,6 +10,7 @@ Microsoft Fabric is an all-in-one analytics solution for enterprises that covers
 
 [^1]: Source: https://learn.microsoft.com/en-us/fabric/get-started/microsoft-fabric-overview
 
+### #00 - Prerequisites
 
 
 Microsoft Fabric is a 
