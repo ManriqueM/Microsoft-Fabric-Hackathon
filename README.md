@@ -49,7 +49,7 @@ All scripts are included in the Scripts subfolder from this repository.
 
 ### 01 - Create Dataset leveraging AzureOpenAI and Data_Specs
 - A sythetic dataset for Sales for a Global Retail Electronics company.
-- This was created leveraging the Azure OpenAI API from Noteboook, as shown in this code: [CSV_to_DeltaTables.ipynb](Scripts/CSV_to_DeltaTables.ipynb)
+- This was created leveraging the Azure OpenAI API from Noteboook, as shown in this code: [CSV_to_DeltaTables.ipynb](Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 - As a result of this process, 4 csv files are created and saved to the Lakehouse, within a csv files subfolder.
 	- Dim_Store
 	- Dim_Customer
@@ -62,7 +62,7 @@ All scripts are included in the Scripts subfolder from this repository.
 - Please refer to this link: [CSV_to_DeltaTables.ipynb](Scripts/CSV_to_DeltaTables.ipynb)
 
 ### 03 - Build Semantic Model
-- The semantic model is detailed below: ![Test](images/Description.png)
+- The semantic model is detailed below: ![Test](images/Semantic_Model.png)
 - It was created by leveraging the SQL Endpoint. 
 - It consists of the 4 delta tables, 2 measures (total sales and quantity sold) and a date view (created with a SQL query), which is added to the model.
 
@@ -72,7 +72,7 @@ All scripts are included in the Scripts subfolder from this repository.
 - 2 enhancements were done, which leverage the Copilot AI capabilities: including Anomaly detection and Smart Narratives
 
 This picture shows the result:
-![Test](images/Description.png)
+![Test](images/PBI Anomaly Detection.png)
 
 ### 05 - KQL Database and KQL Dataset
 - A KQL Database was created.
