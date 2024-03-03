@@ -1,6 +1,6 @@
 # Microsoft-Fabric-Hackathon
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Leveraging distinct Microsoft Fabric (and Copilot capabilities) for Anomaly Detection, using a synthetic dataset created with Azure OpenAI
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 Microsoft Fabric: Leveraging distinct Microsoft Fabric (and Copilot capabilities) for Anomaly Detection, using a synthetic dataset created with Azure OpenAI
