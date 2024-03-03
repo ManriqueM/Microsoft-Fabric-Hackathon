@@ -45,10 +45,10 @@ This is how Azure OpenAI and Copilot were leveraged:
 ### Development Process
 All scripts are included in the Scripts subfolder from this repository.
 
-### 01 - Create Base Dataset leveraging AzureOpenAI and Data_Specs
+#### 01 - Create Base Dataset leveraging AzureOpenAI and Data_Specs
 Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 
-### 02 - Enhance Base Dataset, adapt to historical sales for a Global Retail Electronics Store and load delta tables to Lakehouse
+#### 02 - Enhance Base Dataset, adapt to historical sales for a Global Retail Electronics Store and load delta tables to Lakehouse
 Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 
 ### Outputs
