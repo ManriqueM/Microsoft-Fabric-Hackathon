@@ -6,13 +6,13 @@ Project submitted for the "Hack Together: The Microsoft Fabric Global AI Hack" (
 
 For more details about this submission, please refer to: (https://example.com)
 
-### - Background
+### Background
 
-Microsoft Fabric is an all-in-one analytics solution for enterprises that covers everything from data movement to data science, Real-Time Analytics, and business intelligence. It offers a comprehensive suite of services, including data lake, data engineering, and data integration, all in one place. With Fabric, you don't need to piece together different services from multiple vendors. Instead, you can enjoy a highly integrated, end-to-end, and easy-to-use product that is designed to simplify your analytics needs. The platform is built on a foundation of Software as a Service (SaaS), which takes simplicity and integration to a whole new level. [^1]
+"Microsoft Fabric is an all-in-one analytics solution for enterprises that covers everything from data movement to data science, Real-Time Analytics, and business intelligence. It offers a comprehensive suite of services, including data lake, data engineering, and data integration, all in one place. With Fabric, you don't need to piece together different services from multiple vendors. Instead, you can enjoy a highly integrated, end-to-end, and easy-to-use product that is designed to simplify your analytics needs. The platform is built on a foundation of Software as a Service (SaaS), which takes simplicity and integration to a whole new level". [^1]
 
 [^1]: Source: https://learn.microsoft.com/en-us/fabric/get-started/microsoft-fabric-overview
 
-### - Project Description
+### Project Description
 
 This project leverages multiple Microsoft Fabric components to approach the problem of anomaly detection. It approaches the problem from 4 different angles: within PowerBI, with KQL visuals, running a specific model within Notebook and creating a "low-code" model with the help of Azure OpenAI. The data for this project was generated using Azure Open AI and to make it more realistic, it's based on a Global Retail Electronics Store. The description below shows the components used in the project and how Azure OpenAI and Copilot were leveraged.
 
