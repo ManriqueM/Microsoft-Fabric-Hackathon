@@ -50,8 +50,15 @@ All scripts are included in the Scripts subfolder from this repository.
 #### 01 - Create Base Dataset leveraging AzureOpenAI and Data_Specs
 Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 
-#### 02 - Enhance Base Dataset, adapt to historical sales for a Global Retail Electronics Store and load delta tables to Lakehouse
+#### 02 - Enhance Base Dataset, adapt to Global Retail Electronics Store and load delta tables to Lakehouse
 Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+
+#### 03 - Create Semantic Model and PowerBI
+Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+
+#### 04 - KQL Database and KQL Dataset
+Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+
 
 ### Outputs
 
