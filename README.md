@@ -25,11 +25,11 @@ The image below, from the Lineage view, summarizes how these components are bein
 ![Test](images/Description.png)
 
 This is how Azure OpenAI and Copilot were leveraged:
-- Azure OpenAI:
+- **Azure OpenAI**:
 	- Creating a base dataset based on dataspecs
 	- Enhancing the base dataset and adapting it for a Global Retail Electronics Store
 	- Creating a "low-code" anomaly detection model
-- Copilot:
+- **Copilot**:
 	- Auto-create Report Feature in PowerBI, to create a base report.
 	- Using PowerBI Desktop, to adjust the .pbix and include AI features (Smart Narratives, also to use Anomaly Detection and Explain By feature)
 
