@@ -14,24 +14,26 @@ For more details about this submission, please refer to: (https://example.com)
 
 ### Project Description
 
-This project leverages multiple Microsoft Fabric components to approach the problem of anomaly detection. It approaches the problem from 4 different angles: within PowerBI, with KQL visuals, running a specific model within Notebook and creating a "low-code" model with the help of Azure OpenAI. The data for this project was generated using Azure Open AI and to make it more realistic, it's based on a Global Retail Electronics Store. The description below shows the components used in the project and how Azure OpenAI and Copilot were leveraged.
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+This project leverages multiple Microsoft Fabric components to approach the problem of anomaly detection. It approaches the problem from 4 different angles: within PowerBI, with KQL visuals, running a specific model within Notebook and creating a "low-code" model with the help of Azure OpenAI. The data for this project was generated using Azure Open AI and to make it more realistic, it's based on a Global Retail Electronics Store. The description below shows the components used in the project.
 
-`Workspace` `Lakehouse`
+`Workspace` `Lakehouse` `Notebooks` `AzureOpenAI` 
+`SQL Analytics Endpoint` `Semantic Model` `PowerBI (and PBI Desktop)` `Copilot for PowerBI`
+`KQL Database (using shortcuts)` `KQL Dataset`
+
+The image below, from the Lineage view, summarizes how these components are being used together.
+
+![Test](images/Description.png)
+
+This is how Azure OpenAI and Copilot were leveraged:
+- Azure OpenAI:
+	- Creating a base dataset based on dataspecs
+	- Enhancing the base dataset and adapting it for a Global Retail Electronics Store
+	- Creating a "low-code" anomaly detection model
+- Copilot:
+	- Auto-create Report Feature in PowerBI, to create a base report.
+	- Using PowerBI Desktop, to adjust the .pbix and include AI features (Smart Narratives, also to use Anomaly Detection and Explain By feature)
 
 
--->
-[![Workspace][Lakehouse][Notebook][PowerBI][PowerBI Desktop]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
 
 -Microsoft Fabric Components: Lakehouse, Notebook, PowerBI (and PowerBI Desktop), KQL Database, KQL Dataset, 
 
