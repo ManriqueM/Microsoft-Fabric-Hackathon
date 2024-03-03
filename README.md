@@ -6,7 +6,9 @@ Project submitted for the "Hack Together: The Microsoft Fabric Global AI Hack" (
 
 For more details about this submission, please refer to: (https://example.com)
 
-### Background
+## **Background**
+
+### Details about Microsoft Fabric
 
 *"Microsoft Fabric is an all-in-one analytics solution for enterprises that covers everything from data movement to data science, Real-Time Analytics, and business intelligence. It offers a comprehensive suite of services, including data lake, data engineering, and data integration, all in one place. With Fabric, you don't need to piece together different services from multiple vendors. Instead, you can enjoy a highly integrated, end-to-end, and easy-to-use product that is designed to simplify your analytics needs. The platform is built on a foundation of Software as a Service (SaaS), which takes simplicity and integration to a whole new level".* [^1]
 
@@ -42,7 +44,7 @@ This is how Azure OpenAI and Copilot were leveraged:
 	- Auto-create Report Feature in PowerBI, to create a base report.
 	- Using PowerBI Desktop, to adjust the .pbix and include AI features (Smart Narratives, also to use Anomaly Detection and Explain By feature)
 
-### Development Process
+## **Development Process**
 All scripts are included in the Scripts subfolder from this repository.
 
 #### 01 - Create Base Dataset leveraging AzureOpenAI and Data_Specs
