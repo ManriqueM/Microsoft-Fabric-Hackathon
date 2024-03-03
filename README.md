@@ -2,7 +2,7 @@
 <!-- ABOUT THE PROJECT -->
 ## Leveraging distinct Microsoft Fabric (and Copilot capabilities) for Anomaly Detection, using a synthetic dataset created with Azure OpenAI
 
-Submission for the project Hack Together: The Microsoft Fabric Global AI Hack (https://github.com/microsoft/Hack-Together-Fabric-AI)
+Project submitted for the "Hack Together: The Microsoft Fabric Global AI Hack" (https://github.com/microsoft/Hack-Together-Fabric-AI)
 
 For more details about this submission, please refer to: (https://example.com)
 
