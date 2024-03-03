@@ -4,7 +4,7 @@
 
 Project submitted for the "Hack Together: The Microsoft Fabric Global AI Hack" (https://github.com/microsoft/Hack-Together-Fabric-AI)
 
-For more details about this submission, please refer to: (https://example.com)
+For more details about this submission, please refer to: https://example.com
 
 ## **Background**
 
@@ -47,16 +47,22 @@ This is how Azure OpenAI and Copilot were leveraged:
 ## **Development Process**
 All scripts are included in the Scripts subfolder from this repository.
 
-#### 01 - Create Base Dataset leveraging AzureOpenAI and Data_Specs
+### 01 - Create Base Dataset leveraging AzureOpenAI and Data_Specs
 Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 
-#### 02 - Enhance Base Dataset, adapt to Global Retail Electronics Store and load delta tables to Lakehouse
+### 02 - Enhance Base Dataset, adapt to Global Retail Electronics Store and load delta tables to Lakehouse
 Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 
-#### 03 - Create Semantic Model and PowerBI
+### 03 - Examine Anomalies in PowerBI
 Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 
-#### 04 - KQL Database and KQL Dataset
+### 04 - KQL Database and KQL Dataset
+Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+
+### 05 - KQL Database and KQL Dataset
+Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+
+### 06 - KQL Database and KQL Dataset
 Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 
 
