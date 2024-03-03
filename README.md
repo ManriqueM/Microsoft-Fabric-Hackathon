@@ -22,6 +22,7 @@ This project leverages multiple Microsoft Fabric components to approach the prob
 
 Also, the data for this project was generated using Azure Open AI and to make it more realistic, it's based on a Global Retail Electronics Store. 
 
+### Project Components
 
 The description below shows the components used in the project.
 `Workspace` `Lakehouse` `Notebooks` `AzureOpenAI` 
