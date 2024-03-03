@@ -18,8 +18,10 @@ This project leverages multiple Microsoft Fabric components to approach the prob
 - within PowerBI
 - with KQL visuals
 - running a specific model within Notebook
-- creating a "low-code" model with the help of Azure OpenAI. 
+- creating a "low-code" model with the help of Azure OpenAI
+
 Also, the data for this project was generated using Azure Open AI and to make it more realistic, it's based on a Global Retail Electronics Store. 
+
 
 The description below shows the components used in the project.
 `Workspace` `Lakehouse` `Notebooks` `AzureOpenAI` 
