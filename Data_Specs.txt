@@ -1,0 +1,37 @@
+data_requirements = {
+    "Dim_Product": {
+        "total": 50,
+        "columns": {
+            "Product_ID": "1 to 50",
+            "Product_Name": "refer to additional_instructions",
+            "Product_Category": "refer to additional_instructions"
+        }
+    },
+    "Dim_Store": {
+        "total": 200,
+        "columns": {
+            "Store_ID": "1 to 200",
+            "Store_Name": "refer to additional_instructions",
+            "Country_ID": "refer to additional_instructions",
+            "Country_Name": "use the corresponding country names according to the 2 digit Country_IDs"
+        }
+    },
+    "Dim_Customer": {
+        "total": 5000,
+        "columns": {
+            "Customer_ID": "1 to 5000",
+            "Loyalty_Program": "'Yes' or 'No'"
+        }
+    },
+    "Fact_Sales": {
+        "total_rows": 300000,
+        "columns": {
+            "Date": "all dates should be between 01/01/2023 to 12/31/2023",
+            "Store_ID": "random according to the same number of distinct IDs as the corresponding dimension table",
+            "Product_ID": "random according to the same number of distinct IDs as the corresponding dimension table",
+            "Customer_ID": "random according to the same number of distinct IDs as the corresponding dimension table",
+            "Quantity": "random between 1 and 10",
+            "Unit_Price": "use 1 decimal, same price whenever there is the same Product_ID"
+        }
+    }
+}

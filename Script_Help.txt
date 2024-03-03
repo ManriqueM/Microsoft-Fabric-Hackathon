@@ -1,0 +1,45 @@
+import random
+import pycountry
+
+# Ensure pycountry has been installed: pip install pycountry
+
+# Fetch all country codes using pycountry
+all_countries = list(pycountry.countries)
+# Select 10 unique countries (Ensure there are enough countries)
+selected_countries = random.sample(all_countries, 10)
+# Generate country 2-digit codes
+country_codes = [country.alpha_2 for country in selected_countries]
+
+# Store Names
+store_adjectives = ["Global", "City", "Urban", "Prime",
+                    "Elite", "Mega", "Super", "Hyper", "Ultimate", "Virtual"]
+store_types = ["Electronics", "Tech", "Gadget", "Digital",
+               "Innovations", "Devices", "Solutions", "Concepts", "Future", "Techie"]
+store_names = [
+    f"{random.choice(store_adjectives)} {random.choice(store_types)} {i+1}" for i in range(200)]
+
+# Product Categories and Types
+product_categories = {
+    "Smartphone": "Mobile Devices",
+    "Laptop": "Computers",
+    "Camera": "Photography",
+    "Monitor": "Displays",
+    "Tablet": "Mobile Devices",
+    "Headphones": "Audio",
+    "Smartwatch": "Wearables",
+    "Speaker": "Audio",
+    "Drone": "Drones",
+    "Printer": "Office Electronics"
+}
+brands = ["Sony", "Samsung", "LG", "Dell", "HP",
+          "Canon", "Nikon", "Xiaomi", "Huawei", "Apple"]
+
+# Generate product names with categories
+products = []
+for _ in range(50):
+    brand = random.choice(brands)
+    product_type = random.choice(list(product_categories.keys()))
+    category = product_categories[product_type]
+    model_number = str(random.randint(100, 999))
+    product_name = f"{brand} {product_type} {model_number}"
+    products.append((product_name, category))
