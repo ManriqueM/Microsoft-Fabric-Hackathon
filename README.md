@@ -99,13 +99,13 @@ external_table("Fact_Sales_3")
 | project-away score
 | render anomalychart with(anomalycolumns=anomalies, title=strcat('Daily Units Sold and Anomalies for ', loyalty_program));
 ```
-![Test](images/Description.png)
+![KQL - Anomaly Detection](images/KQL_AnomalyDetection.png)
 
 
 ### 06 - ML Model from Notebook
-Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+Please refer to this link: (Scripts/Notebook_Anomaly_Detection.ipynb)
 
 ### 07 - Low-code ML Model using Notebook and Azure OpenAI
-Please refer to this link: (Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+Please refer to this link: (Scripts/Anomaly_Detection_using_Azure_OpenAI.ipynb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
