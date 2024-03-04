@@ -4,8 +4,6 @@
 
 Project submitted for the "Hack Together: The Microsoft Fabric Global AI Hack" (https://github.com/microsoft/Hack-Together-Fabric-AI)
 
-For more details about this submission, please refer to: https://example.com
-
 ## **Background**
 
 ### Details about Microsoft Fabric
