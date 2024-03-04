@@ -22,7 +22,7 @@ This project leverages a variety of Microsoft Fabric components to tackle the ch
 - running a specific model within Notebook
 - creating a "low-code" model with the help of Azure OpenAI
 
-Also, the data for this project was generated using Azure Open AI and to make it more realistic, it represents sales for a Global Retail Electronics Store. 
+Also, the data for this project was generated using Azure Open AI and to make it more realistic, it represents sales for a Global Retail Electronics Distributor. 
 
 ### Project Components
 
