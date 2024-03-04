@@ -1,4 +1,4 @@
-# Microsoft-Fabric-Hackathon
+# Microsoft-Fabric-AI-Hackathon
 <!-- ABOUT THE PROJECT -->
 ## Leveraging distinct Microsoft Fabric and Copilot capabilities for Anomaly Detection, using a synthetic dataset created with Azure OpenAI
 
@@ -109,7 +109,7 @@ external_table("Fact_Sales_3")
 
 ### 06 - ML Model using Notebook
 - An Isolation Forest algorithm was created to evaluate anomaly scores and detect anomalies.
-- Please refer to this [link:](Scripts/Notebook_Anomaly_Detection.ipynb)
+- Please refer to this [link](Scripts/Notebook_Anomaly_Detection.ipynb)
 - For more details about deploying an Isolation Forest algorithm for anomaly detection, please refer to: https://learn.microsoft.com/en-us/fabric/data-science/isolation-forest-multivariate-anomaly-detection
 
 ### 07 - Low-code ML Model using Notebook and Azure OpenAI
@@ -117,6 +117,6 @@ external_table("Fact_Sales_3")
 - A prompt was made in Notebook to Azure OpenAI, to build the code for an Isolation Forest algorithm.
 - The dataset and algorithm parameters were passed as part of the prompt
 - Azure OpenAI then creates the script, which is executed in Notebook with the exec() function
-- Please refer to this [link:](Scripts/Anomaly_Detection_using_Azure_OpenAI.ipynb)
+- Please refer to this [link](Scripts/Anomaly_Detection_using_Azure_OpenAI.ipynb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
