@@ -74,8 +74,6 @@ All scripts are included in the Scripts subfolder from this repository.
 
 This picture shows the result:
 
-[View the video](Recordings/PBI_Anomaly_Detection.webm)
-
 ![PBI_Anomaly_Detection](images/PBI_Anomaly_Detection.png)
 
 ### 05 - KQL Database and KQL Queryset
