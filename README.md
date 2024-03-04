@@ -49,8 +49,8 @@ This is how Azure OpenAI and Copilot were leveraged:
 All scripts are included in the Scripts subfolder from this repository.
 
 ### 01 - Create Dataset leveraging AzureOpenAI and Data_Specs
-- A sythetic dataset for Sales for a Global Retail Electronics company.
-- This was created leveraging the Azure OpenAI API from Noteboook and data specifications files as shown in this code: [CSV_to_DeltaTables.ipynb](Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+- A synthetic dataset for Sales for a Global Retail Electronics company.
+- This was created leveraging the Azure OpenAI API from Noteboook and data specifications files as shown here: [CSV_to_DeltaTables.ipynb](Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 - For the data specifications files, please refer to subfolder Data Specifications.
 - As a result of this process, 4 csv files were created and saved to the Lakehouse, within a csv files subfolder.
 	- Dim_Store
