@@ -103,9 +103,9 @@ external_table("Fact_Sales_3")
 
 
 ### 06 - ML Model from Notebook
-Please refer to this link: (Scripts/Notebook_Anomaly_Detection.ipynb)
+Please refer to this [link:](Scripts/Notebook_Anomaly_Detection.ipynb)
 
 ### 07 - Low-code ML Model using Notebook and Azure OpenAI
-Please refer to this link: (Scripts/Anomaly_Detection_using_Azure_OpenAI.ipynb)
+Please refer to this [link:](Scripts/Anomaly_Detection_using_Azure_OpenAI.ipynb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
