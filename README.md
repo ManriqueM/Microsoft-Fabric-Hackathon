@@ -73,7 +73,7 @@ All scripts are included in the Scripts subfolder from this repository.
 - 2 enhancements were done, which leverage the Copilot AI capabilities: including Anomaly detection and Smart Narratives
 
 This picture shows the result:
-![PBI Anomaly Detection](images/PBI Anomaly Detection.png)
+![PBI_Anomaly_Detection](images/PBI_Anomaly_Detection.png)
 
 ### 05 - KQL Database and KQL Queryset
 - A KQL Database was created.
