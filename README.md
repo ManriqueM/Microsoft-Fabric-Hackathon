@@ -43,7 +43,7 @@ This is how Azure OpenAI and Copilot were leveraged:
 	- Creating a "low-code" anomaly detection model
 - **Copilot**:
 	- Auto-create Report Feature in PowerBI, to create a base report.
-	- Using PowerBI Desktop, to adjust the .pbix and include AI features (Smart Narratives, also to use Anomaly Detection and Explain By feature)
+	- Using PowerBI Desktop, to adjust the .pbix and include AI features (Smart Narratives, also to use Anomaly Detection and the Explain By feature)
 
 ## **Development Process**
 All scripts are included in the Scripts subfolder from this repository.
