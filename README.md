@@ -38,7 +38,7 @@ The image below, from the Lineage view, summarizes how these components are bein
 
 This is how Azure OpenAI and Copilot were leveraged:
 - **Azure OpenAI**:
-	- Creating a base dataset (3 dimension tables and 1 fact table) based on a file with data specifications [Data_Specs.txt](SpecsForGeneratingData/Data_Specs.txt)
+	- Creating a base dataset (3 dimension tables and 1 fact table) based on some data specifications
 	- Enhancing the base dataset and adapting it for a Global Retail Electronics Store
 	- Creating a "low-code" anomaly detection model
 - **Copilot**:
@@ -50,8 +50,9 @@ All scripts are included in the Scripts subfolder from this repository.
 
 ### 01 - Create Dataset leveraging AzureOpenAI and Data_Specs
 - A sythetic dataset for Sales for a Global Retail Electronics company.
-- This was created leveraging the Azure OpenAI API from Noteboook, as shown in this code: [CSV_to_DeltaTables.ipynb](Scripts/Create_Dataset_Azure_OpenAI.ipynb)
-- As a result of this process, 4 csv files are created and saved to the Lakehouse, within a csv files subfolder.
+- This was created leveraging the Azure OpenAI API from Noteboook and data specifications files as shown in this code: [CSV_to_DeltaTables.ipynb](Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+- For the data specifications files, please refer to subfolder Data Specifications.
+- As a result of this process, 4 csv files were created and saved to the Lakehouse, within a csv files subfolder.
 	- Dim_Store
 	- Dim_Customer
 	- Dim_Product
