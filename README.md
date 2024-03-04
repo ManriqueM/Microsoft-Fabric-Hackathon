@@ -102,7 +102,7 @@ external_table("Fact_Sales_3")
 ![KQL - Anomaly Detection](images/KQL_AnomalyDetection.png)
 
 
-### 06 - ML Model from Notebook
+### 06 - ML Model using Notebook
 - An Isolation Forest algorithm was created to evaluate anomaly scores and detect anomalies.
 - Please refer to this [link:](Scripts/Notebook_Anomaly_Detection.ipynb)
 - Temporary Note: admittedly, this requires more refinement. It will be revised later in this repository.
