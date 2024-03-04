@@ -72,9 +72,12 @@ All scripts are included in the Scripts subfolder from this repository.
 - The base .pbix report was then downloaded, enhanced with PowerBI Desktop and published to the workspace.
 - 2 enhancements were done, which leverage the Copilot AI capabilities: including Anomaly detection and Smart Narratives
 
-This picture shows the result:
+The GIF and picture below show the result:
 
-![PBI_Anomaly_Detection](images/PBI_Anomaly_Detection.png)
+![PBI_Anomaly_Detection](path/to/your/gif.gif)
+
+
+![PBI_Anomaly_Detection](Gifs/PBI_Anomaly_Detection.gif)
 
 ### 05 - KQL Database and KQL Queryset
 - A KQL Database was created.
