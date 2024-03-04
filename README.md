@@ -50,7 +50,7 @@ All scripts are included in the Scripts subfolder from this repository.
 
 ### 01 - Create Dataset leveraging AzureOpenAI and Data_Specs
 - A synthetic dataset for Sales for a Global Retail Electronics company.
-- This was created leveraging the Azure OpenAI API from Noteboook and data specifications files as shown here: [Create_Dataset_Azure_OpenAI](Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+- This was created leveraging the Azure OpenAI API from Noteboook and data specifications files as shown here: [Create Dataset with AzureOpenAI](Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 - For the data specifications files, please refer to subfolder Data Specifications.
 - As a result of this process, 4 csv files were created and saved to the Lakehouse, within a csv files subfolder.
 	- Dim_Store
@@ -61,12 +61,11 @@ All scripts are included in the Scripts subfolder from this repository.
 ### 02 - Load data from CSV files to delta tables
 - This process creates delta tables from the csv files that were generated and stored in the lakehouse, in the previous step. 
 - It takes care of cleaning the table names and column headers (no blank spaces, etc)
-- Please refer to this link: [CSV_to_DeltaTables](Scripts/CSV_to_DeltaTables.ipynb)
+- Please refer to this link: [CSV to DeltaTables](Scripts/CSV_to_DeltaTables.ipynb)
 
 ### 03 - Build Semantic Model
-- The semantic model is detailed below: ![Test](images/Semantic_Model.png)
-- It was created by leveraging the SQL Endpoint. 
-- It consists of the 4 delta tables, 2 measures (total sales and quantity sold) and a date view (created with a SQL query), which is added to the model.
+- The model view of the semantic model is shown below: ![Semantic Model](images/Semantic_Model.png)
+- It consists of the 4 delta tables, 2 measures (total sales and quantity sold) and a date view (created with a SQL query), which were added to the model using the SQL Endpoint. 
 
 ### 04 - Examine Anomalies in PowerBI
 - Leveraging the Copilot AI capabilities in PowerBI, a Report was created using the Auto-create Report feature.
@@ -74,7 +73,7 @@ All scripts are included in the Scripts subfolder from this repository.
 - 2 enhancements were done, which leverage the Copilot AI capabilities: including Anomaly detection and Smart Narratives
 
 This picture shows the result:
-![Test](images/PBI Anomaly Detection.png)
+![Sales Report](images/PBI Anomaly Detection.png)
 
 ### 05 - KQL Database and KQL Dataset
 - A KQL Database was created.
