@@ -16,7 +16,7 @@ For more details about this submission, please refer to: https://example.com
 
 ### Project Description
 
-This project leverages multiple Microsoft Fabric components to tackle the challenges of anomaly detection for time series data. It addresses the topic from 4 different angles: 
+This project leverages a variety of Microsoft Fabric components to tackle the challenges of anomaly detection for time series data. It addresses the topic from 4 different angles: 
 - within PowerBI
 - with KQL visuals
 - running a specific model within Notebook
