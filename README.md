@@ -27,6 +27,7 @@ Also, the data for this project was generated using Azure Open AI and to make it
 ### Project Components
 
 The description below shows the components used in the project.
+
 `Workspace` `Lakehouse` `Notebooks` `AzureOpenAI` 
 `SQL Analytics Endpoint` `Semantic Model` `PowerBI (and PBI Desktop)` `Copilot for PowerBI`
 `KQL Database (using shortcuts)` `KQL Dataset`
