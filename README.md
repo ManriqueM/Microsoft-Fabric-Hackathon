@@ -50,7 +50,7 @@ All scripts are included in the Scripts subfolder from this repository.
 
 ### 01 - Create Dataset leveraging AzureOpenAI and Data_Specs
 - A synthetic dataset for Sales for a Global Retail Electronics company.
-- This was created leveraging the Azure OpenAI API from Noteboook and data specifications files as shown here: [Create_Dataset_Azure_OpenAI.ipynb](Scripts/Create_Dataset_Azure_OpenAI.ipynb)
+- This was created leveraging the Azure OpenAI API from Noteboook and data specifications files as shown here: [Create_Dataset_Azure_OpenAI](Scripts/Create_Dataset_Azure_OpenAI.ipynb)
 - For the data specifications files, please refer to subfolder Data Specifications.
 - As a result of this process, 4 csv files were created and saved to the Lakehouse, within a csv files subfolder.
 	- Dim_Store
@@ -59,9 +59,9 @@ All scripts are included in the Scripts subfolder from this repository.
 	- Fact_Sales
 
 ### 02 - Load data from CSV files to delta tables
-- This process creates delta tables from the csv files originally created and stored in the lakehouse. 
+- This process creates delta tables from the csv files that were generated and stored in the lakehouse, in the previous step. 
 - It takes care of cleaning the table names and column headers (no blank spaces, etc)
-- Please refer to this link: [CSV_to_DeltaTables.ipynb](Scripts/CSV_to_DeltaTables.ipynb)
+- Please refer to this link: [CSV_to_DeltaTables](Scripts/CSV_to_DeltaTables.ipynb)
 
 ### 03 - Build Semantic Model
 - The semantic model is detailed below: ![Test](images/Semantic_Model.png)
