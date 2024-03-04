@@ -74,10 +74,10 @@ All scripts are included in the Scripts subfolder from this repository.
 
 The GIF and picture below show the result:
 
-![PBI_Anomaly_Detection](path/to/your/gif.gif)
-
-
 ![PBI_Anomaly_Detection](Gifs/PBI_Anomaly_Detection.gif)
+
+
+![PBI_Anomaly_Detection](images/PBI_Anomaly_Detection.png)
 
 ### 05 - KQL Database and KQL Queryset
 - A KQL Database was created.
