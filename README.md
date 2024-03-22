@@ -95,7 +95,7 @@ external_table("Fact_Sales_3")
 | join kind=inner (
     external_table("Dim_Customer")
     | project Customer_ID, Loyalty_Program
-) on Customer_ID
+) on Customer_IDdfs
 | where Date >= min_t and Date <= max_t
 | where Loyalty_Program == "Yes"
 | summarize sum(Quantity) by bin(Date, dt)
